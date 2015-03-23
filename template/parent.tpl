@@ -14,7 +14,8 @@
             footer
         </footer>
     </body>
-    <script type="text/javascript" src="/public/0.1.0/js/main.js"></script>
+    <script type="text/javascript" src="/public/0.1.0/js/common.js"></script>
+    <script type="text/javascript" src="/public/0.1.0/js/{@appname@}.js"></script>
     {% block scripts %}{% endblock %}    
 </html>
 

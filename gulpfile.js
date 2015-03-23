@@ -35,9 +35,9 @@ gulp.task('less', function() {
 
 gulp.task('scripts', function() {
     gulp.src('./static/scripts/*.js')
-        .pipe(concat('main.js'))
+        // .pipe(concat('main.js'))
         // .pipe(gulp.dest('./build/public/'+version+'/js'))
-        .pipe(rename('main.js'))
+        // .pipe(rename('main.js'))
         .pipe(uglify())
         // .pipe(rev())
         .pipe(gulp.dest('./build/public/'+version+'/js'));
