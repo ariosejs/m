@@ -1,0 +1,40 @@
+
+// Component
+
+@green:#2BBC69;
+@green-act:#1DA758;
+@red:#E75F44;
+@red-act:#D2482C;
+@disable:#D1D5D8;
+@gray:#BDC3C7;
+@gray-act:#AFB4B7;
+@greenLine:#2BBC69;
+@greenLine-act:#1DA758;
+@heading:#33495F;
+@color-gray:#999999;
+@small:#808C9A;
+@border-ccc:#cccccc;
+@font-666:#666666;
+
+@bui:bui;
+.border-radius(@radius){border-radius:@radius;-moz-border-radius:@radius;-webkit-border-radius:@radius;}
+.blur(@n){-webkit-filter: blur(@n);-moz-filter: blur(@n);-ms-filter: blur(@n);filter: blur(@n);}
+/* button */
+
+/* headings */
+h1,h2,h3,h4,h5,h6{color:@heading;font-weight:400;line-height:180%;}
+h1{font-size:36px;}
+h2{font-size:30px;}
+h3{font-size:24px;}
+h4{font-size:18px;font-weight:600;}
+h5{font-size:14px;font-weight:600;}
+h6{font-size:13px;font-weight:600;}
+p{color:@heading;line-height:20px;}
+p.sub{color:@color-gray;}
+small{color:@small;}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-size:65%;font-weight:400;color:@color-gray;padding:0 1%;}
+a{color:@green;}
+a:hover{text-decoration:underline;}
+
+hr{border:none;border-bottom:1px solid @border-ccc;height:0;margin:10px 0;}
+hr.sub{border-bottom-color:#EDEDED;}
