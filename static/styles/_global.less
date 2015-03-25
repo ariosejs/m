@@ -1,15 +1,42 @@
-html{width: 100%;overflow-x: hidden;font-size: 100px;font-family: "Hiragino Sans GB";}
+// Component
+@green:#2BBC69;
+@orange:#E75F44;
+@red:#EE4B4B;
+@color-3:#333;
+@color-6:#666;
+@color-9:#999;
+@color-d:#DDD;
+@color-gray:#F5F7FA;
+
+html{width: 100%;font-size: 100px;font-family: "Hiragino Sans GB";}
 @media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
     html{font-size: 117.1875px;}
 }
 @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
     html{font-size: 129.375px;}
 }
-body{width: 100%;overflow-x: hidden;margin: 0;font-size: 0.14rem;line-height: 1.5;color: #333;}
-p,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;font-weight: normal;}
-a{text-decoration: none;color: #333;}
+body{width: 100%;overflow-x: scroll;margin: 0;font-size: 0.14rem;line-height: 1.5;color:@color-3;padding-top:1rem;background:@color-gray;}
 img{vertical-align: top;max-width: 100%;}
+a{text-decoration:none;color:@color-3;}
 em,i{font-style: normal;}
 input{border: 0;outline: 0;padding: 0;margin: 0;vertical-align: top;width: 100%;font-size: 0.12rem;}
 textarea{outline: 0;resize: none;box-sizing: border-box;width: 100%;padding: .08rem;border: 1px solid #DDD;border-radius: 3px;font-size: .12rem;line-height: 1.5;}
 ul,li{padding: 0;margin: 0;list-style: none;}
+p{margin:0;}
+.border-radius(@radius){border-radius:@radius;-moz-border-radius:@radius;-webkit-border-radius:@radius;}
+.blur(@n){-webkit-filter: blur(@n);-moz-filter: blur(@n);-ms-filter: blur(@n);filter: blur(@n);}
+/* button */
+
+/* headings */
+h1,h2,h3,h4,h5,h6{color:@color-3;font-weight:normal;line-height:150%;margin: 0;padding: 0;}
+h1{font-size:0.19rem;}
+h2{font-size:0.18rem;}
+h3{font-size:0.17rem;}
+h4{font-size:0.16rem;}
+h5{font-size:0.15rem;}
+h6{font-size:0.14rem;}
+small{color:@color-d;}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-size:65%;font-weight:400;color:@color-d;padding:0 1%;}
+
+hr{border:none;border-bottom:1px solid #ccc;height:0;margin:10px 0;}
+hr.sub{border-bottom-color:#EDEDED;}

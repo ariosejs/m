@@ -1,40 +1,50 @@
-
 // Component
-
 @green:#2BBC69;
-@green-act:#1DA758;
-@red:#E75F44;
-@red-act:#D2482C;
-@disable:#D1D5D8;
-@gray:#BDC3C7;
-@gray-act:#AFB4B7;
-@greenLine:#2BBC69;
-@greenLine-act:#1DA758;
-@heading:#33495F;
-@color-gray:#999999;
-@small:#808C9A;
-@border-ccc:#cccccc;
-@font-666:#666666;
+@orange:#E75F44;
+@red:#EE4B4B;
+@color-3:#333;
+@color-6:#666;
+@color-9:#999;
+@color-c:#CCC;
+@color-d:#DDD;
+@color-e:#EEE;
+@color-gray:#F5F7FA;
 
-@bui:bui;
-.border-radius(@radius){border-radius:@radius;-moz-border-radius:@radius;-webkit-border-radius:@radius;}
-.blur(@n){-webkit-filter: blur(@n);-moz-filter: blur(@n);-ms-filter: blur(@n);filter: blur(@n);}
-/* button */
+.disableScorll{overflow:hidden;}
 
-/* headings */
-h1,h2,h3,h4,h5,h6{color:@heading;font-weight:400;line-height:180%;}
-h1{font-size:36px;}
-h2{font-size:30px;}
-h3{font-size:24px;}
-h4{font-size:18px;font-weight:600;}
-h5{font-size:14px;font-weight:600;}
-h6{font-size:13px;font-weight:600;}
-p{color:@heading;line-height:20px;}
-p.sub{color:@color-gray;}
-small{color:@small;}
-h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-size:65%;font-weight:400;color:@color-gray;padding:0 1%;}
-a{color:@green;}
-a:hover{text-decoration:underline;}
+header{width:100%;height:.5rem;background: -webkit-gradient(linear, 0 0, 0 100%, from(#27AA60), to(#1F9C51));position:fixed;top:0;left:0;z-index:10;}
+header .logo{display:block;width:58px;height:28px;background:url(../img/logo.png) no-repeat 0 0/contain;overflow:hidden;text-indent:-9999px;position:absolute;top:50%;left:50%;margin:-14px 0 0 -29px;}
+header .search{position:absolute;top:50%;left:50%;margin:-.2rem 0 0 -1rem;height:.4rem;width:2rem;border-radius:3px;text-align:center;font-size:.14rem;display:none;}
+header .search-act{width:40px;height:24px;position:absolute;top:50%;right:.1rem;background:url(../img/i-search.png) no-repeat 50% 0/contain;margin-top:-12px;text-indent:-9999px;text-align:center;color:#fff;font-size:.16rem;}
+header .search-act.on{background:none;text-indent:0;}
+header .search-cancel{width:40px;height:24px;position:absolute;top:50%;left:.1rem;color:#fff;font-size:.16rem;margin-top:-12px;display:none;}
+.search-res{position:fixed;width:100%;height:100%;background:#fff;top:.5rem;display:none;z-index:11;}
+.search-res h5{height:.4rem;line-height:.4rem;background:@color-gray;color:@color-6;text-indent:.1rem;border-bottom:1px solid @color-e}
+.search-res li{height:.45rem;line-height:.45rem;color:@color-3;text-indent:.1rem;border-bottom:1px solid @color-e;position:relative;}
+.search-res li.del-search-key a{color:@orange;}
+.search-res li.del-search-key i.del{color:@orange;position:absolute;width:24px;height:24px;right:.1rem;top:.02rem;}
+nav{width:100%;height:.5rem;background:@color-gray;position:fixed;top:.5rem;left:0;z-index:10;border-bottom:1px solid @color-d;}
+nav ul{display: -webkit-flex;display: flex;}
+nav li{height:.5rem;overflow:hidden;-webkit-flex: 1;flex: 1;background:url(../img/line-v.png) right center no-repeat;background-size:.01rem ;}
+nav li a{display:block;width:100%;height:55%;text-align:center;padding-top:45%;font-size:.12rem;color:@color-9;position:relative;}
+nav li i{display:block;width:20px;height:20px;position:absolute;top:7px;left:50%;margin-left:-10px;}
+nav li i.nav-0{background:url(../img/nav0.png) 0 0 /contain;}
+nav li i.nav-1{background:url(../img/nav1.png) 0 0 /contain;}
+nav li i.nav-2{background:url(../img/nav2.png) 0 0 /contain;}
+nav li i.nav-3{background:url(../img/nav3.png) 0 0 /contain;}
+nav li i.nav-4{background:url(../img/nav4.png) 0 0 /contain;}
+nav li i.num{width:16px;height:16px;background:@red;color:#fff;text-align:center;line-height:16px;font-size:.11rem;border-radius:50%;top:0;margin:7px 0 0 12px;}
+nav li.on{background:#E8E8E8;}
 
-hr{border:none;border-bottom:1px solid @border-ccc;height:0;margin:10px 0;}
-hr.sub{border-bottom-color:#EDEDED;}
+i.more{position: absolute;right: 0.12rem;top: 0;bottom: 0;margin: auto;width: 0.1rem;height: 0.1rem;border-top: 4px solid #CCC;border-right: 4px solid #CCC;	-webkit-transform: rotate(45deg);}
+.i-cart{width:.24rem;height:.24rem;background:url(../img/cart.png) 0 0 /contain;position:absolute;right:.15rem;bottom:.25rem;}
+.sub{color:@color-9;font-size:.12rem;}
+.price{color:@orange;}
+.price em{font-size: 0.15rem;margin-right: 8px;}
+.price span{color:@color-9;text-decoration: line-through;}
+
+
+
+footer{padding:.17rem;border-top:1px solid #F3F2F3;text-align:center;color:@color-9;}
+footer a{margin:.1rem;}
+footer a.on{color:@orange;}
