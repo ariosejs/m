@@ -1,5 +1,4 @@
 'use strict';
-var version = 'v1.0.0';
 var swig = require('swig');
 var express = require('express');
 var path = require('path');
@@ -13,12 +12,12 @@ var appbase = path.join(__dirname);
 
 app.engine('tpl' , swig.renderFile);
 app.set('view engine' , 'tpl');
-app.set('views' , appbase+'/template' );
+app.set('views' , appbase+'/build/m/0.1.0/html/' );
 app.set('view cache', false);
 swig.setDefaults({varControls:['{@','@}'] , cache: false});
 
 app.use( '/', express.static( path.join(appbase )));
-app.use('/public', express.static(__dirname + '/build/public'));
+app.use('/public', express.static(__dirname + '/build/m/0.1.0/'));
 
 app.get( '/', function(req,res){
     var appname = 'index';
@@ -66,6 +65,6 @@ app.get(/\/(\w+).json$/, function(req,res){
     });
 });
 
-var port = 3214;
+var port = 3223;
 app.listen(port);
 console.log('Server start at port ' + port);

@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
         <title>{% block title %}{@appname@}{% endblock %}</title>
-        <link rel="stylesheet" href="/public/0.1.0/css/main.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="../../css/main.css" type="text/css" media="screen" />
     </head>
     <body class="{@appname@}">
         {% block content %}{% endblock %}
@@ -17,8 +17,8 @@
             <p class="copyright">Copyright 2014 m.chunbo.com</p>
         </footer>
     </body>
-    <script type="text/javascript" src="/public/0.1.0/js/common.js"></script>
-    <script type="text/javascript" src="/public/0.1.0/js/{@appname@}.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script type="text/javascript" src="../../js/{@appname@}.js"></script>
     {% block scripts %}{% endblock %}    
 </html>
 

@@ -11,7 +11,6 @@ var swig = require('gulp-swig');
 var clean = require('gulp-clean');
 var rev = require('gulp-rev');
 var revReplace = require('gulp-rev-replace');
-var livereload = require('gulp-livereload');
 var watch = require('gulp-watch');
 var server = require('gulp-express');
 var fs = require('fs');
@@ -30,7 +29,7 @@ gulp.task('less', function() {
         .pipe(less())
         .pipe(minifyCSS())
         // .pipe(rev())
-        .pipe(gulp.dest('./build/public/'+version+'/css'));
+        .pipe(gulp.dest('./build/m/'+version+'/css'));
 });
 
 gulp.task('scripts', function() {
@@ -40,13 +39,13 @@ gulp.task('scripts', function() {
         // .pipe(rename('main.js'))
         .pipe(uglify())
         // .pipe(rev())
-        .pipe(gulp.dest('./build/public/'+version+'/js'));
+        .pipe(gulp.dest('./build/m/'+version+'/js'));
 });
 
 gulp.task('images', function(){
     gulp.src('./static/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./build/public/'+version+'/img'))
+        .pipe(gulp.dest('./build/m/'+version+'/img'))
         // .pipe(gulp.dest('./build/public/'+version+'/images'));
 });
 
@@ -54,21 +53,17 @@ gulp.task('templates',function() {
     gulp.src('./template/**/*.tpl')
         .pipe(swig())
         // .pipe(rev())
-        .pipe(revReplace())
-        .pipe(gulp.dest('./build/app/'));
+        // .pipe(revReplace())
+        .pipe(gulp.dest('./build/m/'+version+'/html'));
 });
 
-gulp.task('clean-public', function(){
-    return gulp.src('./build/public', {read: false})
-        .pipe(clean());
-});
-gulp.task('clean-app', function(){
-    return gulp.src('./build/app', {read: false})
+gulp.task('clean', function(){
+    return gulp.src('./build/m/'+version, {read: false})
         .pipe(clean());
 });
 
 
-gulp.task('default',['clean-public','clean-app'],function(){
+gulp.task('default',['clean'],function(){
     server.run(['app.js']);
     gulp.start('lint', 'less', 'scripts', 'images', 'templates');
     gulp.start('watch');
@@ -89,6 +84,6 @@ gulp.task('watch',function(){
     gulp.watch('./static/styles/*.less',['less']);
     gulp.watch('./static/scripts/*.js',['scripts']);
     gulp.watch('./static/images/*',['images']);
-    
+    gulp.watch('./template/**/*.tpl',['templates']);
     // gulp.start('lint', 'less', 'scripts', 'images');
 });

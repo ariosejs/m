@@ -1,2 +1,2 @@
 # cat angular.js angular-route.js angular-cookies.js  zepto.js > ../global.js
-cat zepto.js iscroll.js swipeSlide.js > ../common.js
+cat zepto.js swipeSlide.js > ../common.js
