@@ -12,12 +12,14 @@ var appbase = path.join(__dirname);
 
 app.engine('tpl' , swig.renderFile);
 app.set('view engine' , 'tpl');
-app.set('views' , appbase+'/build/m/0.1.0/html/' );
+app.set('views' , appbase+'/template' );
 app.set('view cache', false);
 swig.setDefaults({varControls:['{@','@}'] , cache: false});
 
 app.use( '/', express.static( path.join(appbase )));
-app.use('/public', express.static(__dirname + '/build/m/0.1.0/'));
+app.use('/css', express.static(__dirname + '/build/m/0.1.0/css'));
+app.use('/js', express.static(__dirname + '/build/m/0.1.0/js'));
+app.use('/img', express.static(__dirname + '/build/m/0.1.0/img'));
 
 app.get( '/', function(req,res){
     var appname = 'index';
@@ -65,6 +67,6 @@ app.get(/\/(\w+).json$/, function(req,res){
     });
 });
 
-var port = 3223;
+var port = 9988;
 app.listen(port);
 console.log('Server start at port ' + port);
