@@ -15,7 +15,7 @@
 		<li class="on"><a href="../category/index.html"><i class="nav-1"></i>分类</a></li>
 		<li><a href="#"><i class="nav-2"></i>菜谱</a></li>
 		<li><a href="#"><i class="nav-3"></i>购物车<i class="num">2</i></a></li>
-		<li><a href="#"><i class="nav-4"></i>我的春播</a></li>
+		<li><a href="../my_chunbo/index.html"><i class="nav-4"></i>我的春播</a></li>
 	</ul>
 </nav>
 <div class="search-res">

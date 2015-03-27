@@ -15,7 +15,7 @@
 		<li><a href="../category/index.html"><i class="nav-1"></i>分类</a></li>
 		<li><a href="#"><i class="nav-2"></i>菜谱</a></li>
 		<li><a href="#"><i class="nav-3"></i>购物车<i class="num">2</i></a></li>
-		<li><a href="#"><i class="nav-4"></i>我的春播</a></li>
+		<li><a href="../my_chunbo/index.html"><i class="nav-4"></i>我的春播</a></li>
 	</ul>
 </nav>
 <div class="search-res">
@@ -30,10 +30,10 @@
 
 <div class="slide" id="J_slider">
 	<ul class="slide-img">
-		<li><a href="#"><img src="http://s1.dwstatic.com/group1/M00/73/68/477a69bc98b3ae72bcc51982ac47b2d1.jpg" alt=""></a></li>
-		<li><a href="#"><img src="http://s1.dwstatic.com/group1/M00/70/60/9a015d60ce56af98d44335972e9c79a2.jpg" alt=""></a></li>
-		<li><a href="#"><img src="http://s1.dwstatic.com/group1/M00/73/68/477a69bc98b3ae72bcc51982ac47b2d1.jpg" alt=""></a></li>
-		<li><a href="#"><img src="http://s1.dwstatic.com/group1/M00/74/3F/07670e31745ed71f2a62e8c6dafb9b0c.jpg" alt=""></a></li>
+		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/73/68/477a69bc98b3ae72bcc51982ac47b2d1.jpg" alt=""></a></li>
+		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/70/60/9a015d60ce56af98d44335972e9c79a2.jpg" alt=""></a></li>
+		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/73/68/477a69bc98b3ae72bcc51982ac47b2d1.jpg" alt=""></a></li>
+		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/74/3F/07670e31745ed71f2a62e8c6dafb9b0c.jpg" alt=""></a></li>
 	</ul>
 	<div class="slide-nav dot">
 		<i></i><i></i><i></i><i></i>
@@ -53,7 +53,7 @@
 	<div class="slide" id="J_slider_box">
 		<ul class="good-list slide-box">
 			<li>
-				<a href="#"><img src="../../img/temp2.jpg" alt="">
+				<a href="../detail/index.html"><img src="../../img/temp2.jpg" alt="">
 				<h5><a href="">优选荷兰青啤梨</a></h5>
 				<p class="sub">欧盟标准 适合减肥人群</p>
 				<p class="sub">4粒装</p>
@@ -61,7 +61,7 @@
 				<a href="#" class="icon i-cart"></a>
 			</li>
 			<li>
-				<a href="#"><img src="../../img/temp2.jpg" alt="">
+				<a href="../detail/index.html"><img src="../../img/temp2.jpg" alt="">
 				<h5><a href="">优选荷兰青啤梨</a></h5>
 				<p class="sub">欧盟标准 适合减肥人群</p>
 				<p class="sub">4粒装</p>
