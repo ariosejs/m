@@ -21,18 +21,21 @@ $('input.search ').on('focus',function(e){
 
 function categoryLayer(){
 	if($('.category-layer').is(':hidden')){
-		$('body').addClass('disableScorll');
+		// $('body').addClass('disableScorll');
 		$('.category-layer').show();
+		$('.filter-bar,.layer').hide();
 		$('.cate-list-tit').addClass('category-open');
 	}else{
 		$('body').removeClass('disableScorll');
 		$('.category-layer').hide();
+		$('.filter-bar,.layer').show();
 		$('.cate-list-tit').removeClass('category-open');
 	}
 	$('.category-layer .close').on('click',function(e){
 		e.preventDefault();
 		$('body').removeClass('disableScorll');
 		$('.category-layer').hide();
+		$('.filter-bar,.layer').show();
 		$('.cate-list-tit').removeClass('category-open');
 	});
 }

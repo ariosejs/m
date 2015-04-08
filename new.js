@@ -25,8 +25,7 @@ function main(){
 
     fs.mkdirSync(apppath);
     fs.writeFileSync( path.join(apppath, 'index.tpl') ,
-                      '{% extends "../parent.tpl" %}\n{% block styles %}\n{% parent %}\n{% endblock %}\n{% block content %}\n\n'
-                      +'{% endblock %}\n{% block scripts %}\n{% parent %}\n{% endblock %}' );
+                      '' );
     fs.writeFileSync( path.join(apppath ,'..','..','static','scripts', appname+'.js'),'/* use strict; */' );
     fs.writeFileSync( path.join(apppath , '..','..','static','styles' , appname+'.less') , '\n' );
 

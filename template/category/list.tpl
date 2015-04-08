@@ -48,7 +48,7 @@
 <div class="layer">
 	<ul class="layer-list">
 		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>一二三四五六七八九十一二</h6></a>
 			<p class="sub">4粒装</p>
 			<p class="price"><b>&yen;12.50</b></p>
 			<a href="#" class="icon i-cart"><i>2</i></a>

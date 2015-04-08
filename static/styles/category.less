@@ -22,19 +22,19 @@
 .cate-list-tit{padding:.2rem 0 .15rem;display:block;text-align:center;vertical-align:middle;background:#fff;border-bottom:1px solid @color-e;}
 .cate-list-tit h4{color:@green;display:inline-block;margin-right:.05rem;vertical-align:middle;line-height:.25rem;}
 
-.filter-bar{margin:.1rem .1rem 0;border:1px solid @green;background:#fff;border-radius:3px;display: -webkit-flex;display: flex;height:.3rem;}
-.filter-bar li{-webkit-flex: 1;flex: 1;text-align:center;position:relative;height:.3rem;line-height:.3rem;}
+.filter-bar{margin:.1rem .1rem 0;border:1px solid @green;background:#fff;border-radius:3px;display: -webkit-flex;display: flex;height:.3rem;display: -webkit-box;display: -moz-box;display: box;}
+.filter-bar li{-webkit-flex: 1;flex: 1;text-align:center;position:relative;height:.3rem;line-height:.3rem;display: -webkit-box;display: -moz-box;display: box;-webkit-box-flex: 1;-moz-box-flex: 1;box-flex: 1;}
 .filter-bar li:before{content: "";position: absolute;left: 0;width:1px;height:.6rem;background:@green;-webkit-transform: scale(0.5);
 -webkit-transform-origin: right top;}
 .filter-bar li:first-child:before{display:none;}
 .filter-bar li.on{background:@green}
-.filter-bar li a{color:@green;}
+.filter-bar li a{color:@green;display:block;width:100%;height:100%;text-align:center;}
 .filter-bar li.on a{color:#fff;}
 
-.category-layer{position:fixed;width:100%;height:100%;background:#fff;top:1.61rem;display:none;z-index:11;}
+.category-layer{width:100%;min-height:3.7rem;padding-bottom:.3rem;background:#fff;display:none;z-index:11;position:relative;}
 .category-layer li{height:.45rem;line-height:.45rem;color:@color-3;text-indent:.1rem;border-bottom:1px solid @color-e;position:relative;}
 .category-layer li a{display:block;width:100%;height:100%;}
-.category-layer a.close{color:@color-9;position:absolute;width:32px;height:32px;left:50%;bottom:1.7rem;font-size:.28rem;margin-left:-16px;text-align:center;}
+.category-layer a.close{color:@color-9;position:absolute;width:32px;height:32px;left:50%;bottom:.3rem;font-size:.28rem;margin-left:-16px;text-align:center;}
 .category-open i.arr{-webkit-transform: rotate(180deg);}
 .filter-layer{display:none;z-index:12;-webkit-transform:inherit;}
 
@@ -176,6 +176,7 @@
 .filter-level-4 li {
   padding-left: .45rem;
 }
+.filter-list a{color:@color-9;}
 
 header .header-back{position: absolute;left: 0;top: 0;bottom: 0;width: 0.4rem;}
 header .header-back:before{content: "";position: absolute;top: 0;bottom: 0;margin:auto;left: 0.12rem;border-left: 1.5px solid #FFF;border-top: 1.5px solid #FFF;width: 0.14rem;height: 0.14rem;-webkit-transform: rotate(-45deg);}

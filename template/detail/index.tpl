@@ -52,6 +52,9 @@
 	<div class="detail-size">
 		规格：<a href="#" class="on">2粒装</a><a href="#">4粒装</a>
 	</div>
+	<div class="detail-gift">
+		<span class="num">&times;1</span><i class="i-txticon-red">赠品</i><img src="http://i2.chunboimg.com/group1/M00/00/31/Cv4IdVSzdOGAMo0cAAbj2LOMd0s573_40_40.jpg" alt="" class='img'>春播农庄有机栽培红果西红柿
+	</div>
 	<div class="detail-express">
 		<a href="#">
 			<p>配送至：北京>朝阳区>三环以内 <b>有货</b></p>
@@ -65,11 +68,12 @@
 				<input type="text" value="1" />
 				<a class="icon-plus" href="#">+</a>
 			</div>
-			<a href="#" class="btn-red">加入购物车</a>
+			<!-- <a href="#" class="btn-red">加入购物车</a> -->
+			<a href="#" class="btn-disable">抢空了，马上回来</a>
 	</div>
 </section>
 <section class="detail-section mb anxin topborder">
-	春播安心度：<a href="#"><img src="http://i2.chunboimg.com/group1/M00/00/BD/Cv4IbFUKh6mABcfWAABvRsZnBYY669_110_110.jpg" alt=""></a><a href="#"><img src="http://i2.chunboimg.com/group1/M00/00/BD/Cv4IbFUKh6mABcfWAABvRsZnBYY669_110_110.jpg" alt=""></a><span class="an-tip">专业安心的检测报告点击图标查看哦！<i></i></span>
+	春播安心度：<a href="#"><img src="http://i2.chunboimg.com/group1/M00/00/BD/Cv4IbFUKh6mABcfWAABvRsZnBYY669_110_110.jpg" alt="" data-img-list="http://i0.chunboimg.com/group1/M00/00/EC/Cv4IbFUfVGeAJsjmAAO9PEtiHNY4..jpeg;http://i0.chunboimg.com/group1/M00/00/EC/Cv4IdVUfVGeAMcW2AARnOv94VyE5..jpeg;http://i1.chunboimg.com/group1/M00/00/ED/Cv4IbFUfVGiAH0HVAATzlZ8WUmY5..jpeg;http://i1.chunboimg.com/group1/M00/00/EC/Cv4IdVUfVGiAaIZsAATvllOo6go1..jpeg;http://i0.chunboimg.com/group1/M00/00/ED/Cv4IbFUfVGiAZzxUAAS5SjzSAiM8..jpeg"></a><a href="#"><img src="http://i2.chunboimg.com/group1/M00/00/BD/Cv4IbFUKh6mABcfWAABvRsZnBYY669_110_110.jpg" alt=""></a><span class="an-tip">专业安心的检测报告点击图标查看哦！<i></i></span>
 </section>
 <section class="detail-section mb topborder">
 	<h2>- 买手推荐 -</h2>
@@ -241,6 +245,13 @@
 
 	</ul>
 </div>
+
+<div class="imgView" style="display:none;">
+	<h3>检测报告</h3>
+	<ul></ul>
+	<a href="#" class="close">&times;</a>
+</div>
+
 		<footer>
             <div class="footer-tool">
                 <a href="#" class="toTop">回到顶部</a>

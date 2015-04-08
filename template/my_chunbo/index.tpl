@@ -35,29 +35,29 @@
 	<ul class="profile-block">
 		<li>
 			<h5>我的订单<i>3</i></h5>
-			<p class="sub">最近一单正在派送，快递员王小二，电话<b>13800138000</b></p>
+			<!-- <p class="sub">最近一单正在派送，快递员王小二，电话<b>13800138000</b></p> -->
 		</li>
 		<li>
 			<h5>我的收藏</h5>
-			<p class="sub">收藏夹里的好东西该买来常常啦</p>
+			<!-- <p class="sub">收藏夹里的好东西该买来常常啦</p> -->
 		</li>
 		<li>
 			<h5>我的积分</h5>
-			<p class="sub">目前已有<b>3000</b>积分，可抵用30元，积分满9000分可获得果蔬试吃包哦</p>
+			<p class="sub">目前已有<b>3000</b>积分<br>可抵用30元</p>
 		</li>
 		<li>
 			<h5>我的春播卡</h5>
-			<p class="sub">快来绑定春播卡，快捷消费吧</p>
+			<!-- <p class="sub">快来绑定春播卡，快捷消费吧</p> -->
 			<strong>&yen; 0</strong>
 		</li>
 		<li>
 			<h5>代金券</h5>
-			<p class="sub">激活代金券消费更方便</p>
+			<!-- <p class="sub">激活代金券消费更方便</p> -->
 			<strong>0张</strong>
 		</li>
 		<li>
 			<h5>余额</h5>
-			<p class="sub"></p>
+			<!-- <p class="sub"></p> -->
 			<strong>&yen; 150.00</strong>
 		</li>
 	</ul>

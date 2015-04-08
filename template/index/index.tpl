@@ -8,7 +8,7 @@
     </head>
     <body class="index">
 <div class="download"><a href="#" class="close"></a></div>
-<header><a href="#" class="search-cancel">取消</a><a href="#" class="logo">春播</a><input type="text" class="search" placeholder="搜索春播商品"><a href="#" class="search-act">搜索</a></header>
+<header><a href="#" class="search-cancel">取消</a><a href="#" class="logo">春播</a><input type="text" class="search" placeholder="搜索春播商品"><a href="#" class="search-act">搜索</a><a href="#" class="search-act-icon"></a></header>
 <nav>
 	<ul>
 		<li class="on"><a href="../index/index.html"><i class="nav-0"></i>首页</a></li>
@@ -49,7 +49,7 @@
 </div>
 
 <div class="good">
-	<h4><a href="#">好货推荐<i class="more"></i></a></h4>
+	<h4><a href="#">好货推荐</a></h4>
 	<div class="slide" id="J_slider_box">
 		<ul class="good-list slide-box">
 			<li>
@@ -99,6 +99,12 @@
 			<p class="sub">4粒装</p>
 			<p class="price"><b>&yen;12.50</b></p>
 			<a href="#" class="icon i-cart"><i>2</i></a>
+			<div class="item-icon-box">
+				<i class="icon i-xsqg"></i>
+				<i class="icon i-ys"></i>
+				<i class="icon i-toprm"></i>
+				<i class="icon i-sg"></i>
+			</div>
 		</li>
 		<li>
 			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
