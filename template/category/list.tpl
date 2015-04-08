@@ -5,6 +5,41 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
         <title>list</title>
         <link rel="stylesheet" href="../../css/main.css" type="text/css" media="screen" />
+        <style>
+ #wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 1rem;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+</style>
     </head>
     <body class="list">
 <div class="download"><a href="#" class="close"></a></div>
@@ -27,6 +62,8 @@
 		<li class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></li>
 	</ul>
 </div>
+<div id="wrapper">
+<div id="scroller">
 <a class="cate-list-tit" href="#">
 	<h4>新鲜水果</h4><i class="arr"></i>
 </a>
@@ -45,6 +82,7 @@
 	</ul>
 	<a href="#" class="close">&times;</a>
 </div>
+
 <div class="layer">
 	<ul class="layer-list">
 		<li>
@@ -97,19 +135,33 @@
 		</li>
 
 	</ul>
+	<div id="pullUp" class="">
+		<span class="pullUpIcon"></span><span class="pullUpLabel">上拉加载更多...</span>
+	</div>
+</div>
+</div>
 </div>
 
 
-
-<footer>
-            <div class="footer-tool">
-                <a href="#" class="toTop">回到顶部</a>
-                <a href="#">登录</a>|<a href="#">注册</a>    
-            </div>
-            <a href="#" class="on">触屏版</a>|<a href="#">电脑版</a>
-            <p class="copyright">Copyright 2014 m.chunbo.com</p>
-        </footer>
     </body>
     <script type="text/javascript" src="../../js/common.js"></script>
     <script type="text/javascript" src="../../js/category.js"></script>
+<script>
+$(function(){
+
+
+
+
+var myScroll;
+
+(function loaded () {
+	myScroll = new IScroll('#wrapper', { 
+		scrollbars:true,
+		click: true
+	});
+})();
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+})
+</script>
 </html>
