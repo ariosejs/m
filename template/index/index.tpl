@@ -30,11 +30,7 @@
 
 <div class="slide" id="J_slider">
 	<ul class="slide-img">
-		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/73/68/477a69bc98b3ae72bcc51982ac47b2d1.jpg" alt=""></a></li>
-		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/70/60/9a015d60ce56af98d44335972e9c79a2.jpg" alt=""></a></li>
-		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/73/68/477a69bc98b3ae72bcc51982ac47b2d1.jpg" alt=""></a></li>
-		<li><a href="../detail/index.html"><img src="http://s1.dwstatic.com/group1/M00/74/3F/07670e31745ed71f2a62e8c6dafb9b0c.jpg" alt=""></a></li>
-	</ul>
+        <li data-index="0"><a href="/Act/217"><img src="http://i3.chunboimg.com/group1/M00/00/FA/Cv4IbFUk_FaAVQrMAAFU_tX9eHY900_640_240.jpg" alt=""></a></li><li data-index="1" ><a href="/Act/213"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk8BaAN64_AAFp6y0ViIs919_640_240.jpg" alt=""></a></li><li data-index="2" ><a href="/product/6985"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk5jWAGn_NAAI7XHXMLZA994_640_240.jpg" alt=""></a></li><li data-index="3"><a href="/Act/209"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk-UuAQGLwAADfhzJPbUQ863_640_240.jpg" alt=""></a></li>    </ul>
 	<div class="slide-nav dot">
 		<i></i><i></i><i></i><i></i>
 	</div>
@@ -42,6 +38,7 @@
 <ul class="new_hot mb">
 	<li><a href="#"><i class="i-new"></i>新品上市</a></li>
 	<li><a href="#"><i class="i-hot"></i>火热促销</a></li>
+	<li><a href="#"><i class="i-diary"></i>每日一食</a></li>
 </ul>
 
 <div class="today mb">

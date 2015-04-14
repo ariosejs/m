@@ -27,117 +27,165 @@
 		<li class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></li>
 	</ul>
 </div>
-<ul class="filter-bar">
-	<li class="on"><a href="#">相关度</a></li>
-	<li><a href="#">销量</a></li>
-	<li><a href="#">价格<i></i></a></li>
-	<li><a href="#">评论数</a></li>
-</ul>
-<div class="filter-layer">
-	<div class="search-mask"></div>
-	<div class="search-filter">
-		<header class="common-header">
-			<a href="javascript:;" class="header-back"><i class="icon-back"></i></a>
-		</header>
-		<footer>
-			<a href="#" class="btn-gray">重置</a>
-			<a href="#" class="btn-red">确认</a>
-		</footer>
-		<ul class="filter-list">
-			<li class="active">
-				<h4>分类</h4>
-				<ul class="filter-level-2">
-					<li>
-						<h5><a href="#">水果（120）</a></h5>
-						<ul class="filter-level-3">
-							<li>
-								<h6><a href="#">-苹果（54）</a></h6>
-								<ul class="filter-level-4">
-									<li class="selected"><a href="#">-红富士</a></li>
-									<li><a href="#">-青苹果</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><h5>水果（120）</h5></li>
-				</ul>
+<div id="wrapper">
+<div id="scroller">
+	<ul class="filter-bar">
+		<li class="on"><a href="#">相关度</a></li>
+		<li><a href="#">销量</a></li>
+		<li><a href="#">价格<i></i></a></li>
+		<li><a href="#">评论数</a></li>
+	</ul>
+	<div class="layer">
+		<ul class="layer-list">
+			<li>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><b>&yen;12.50</b></p>
+				<a href="#" class="icon i-cart"><i>2</i></a>
 			</li>
 			<li>
-				<h4><span class="text-selected">50-100元</span>价格</h4>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><b>&yen;12.50</b></p>
+				<a href="#" class="icon i-cart"></a>
 			</li>
 			<li>
-				<h4>人群</h4>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
+				<a href="#" class="icon i-cart"><i>1</i></a>
 			</li>
+			<li>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
+				<a href="#" class="icon i-cart"></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
+				<a href="#" class="icon i-cart"><i>5</i></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
+				<a href="#" class="icon i-cart"><i>5</i></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
+				<a href="#" class="icon i-cart"><i>5</i></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
+				<p class="sub">4粒装</p>
+				<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
+				<a href="#" class="icon i-cart"><i>5</i></a>
+			</li>
+
 		</ul>
 	</div>
 </div>
-
-<div class="layer">
-	<ul class="layer-list">
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><b>&yen;12.50</b></p>
-			<a href="#" class="icon i-cart"><i>2</i></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><b>&yen;12.50</b></p>
-			<a href="#" class="icon i-cart"></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"><i>1</i></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"><i>5</i></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"><i>5</i></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"><i>5</i></a>
-		</li>
-		<li>
-			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
-			<p class="sub">4粒装</p>
-			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"><i>5</i></a>
-		</li>
-
-	</ul>
 </div>
+	<div class="filter-layer">
+		<div class="search-mask"></div>
+		<div class="search-filter">
+			<header class="common-header">
+				<a href="javascript:;" class="header-back"><i class="icon-back"></i></a>
+			</header>
+			<footer>
+				<a href="#" class="btn-gray">重置</a>
+				<a href="#" class="btn-red">确认</a>
+			</footer>
+			<ul class="filter-list">
+				<li class="active">
+					<h4>分类</h4>
+					<ul class="filter-level-2">
+						<li>
+							<h5><a href="#">水果（120）</a></h5>
+							<ul class="filter-level-3">
+								<li>
+									<h6><a href="#">-苹果（54）</a></h6>
+									<ul class="filter-level-4">
+										<li class="selected"><a href="#">-红富士</a></li>
+										<li><a href="#">-青苹果</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><h5>水果（120）</h5></li>
+					</ul>
+				</li>
+				<li>
+					<h4><span class="text-selected">50-100元</span>价格</h4>
+				</li>
+				<li>
+					<h4>人群</h4>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-
-
-
-		<footer>
-            <div class="footer-tool">
-                <a href="#" class="toTop">回到顶部</a>
-                <a href="#">登录</a>|<a href="#">注册</a>    
-            </div>
-            <a href="#" class="on">触屏版</a>|<a href="#">电脑版</a>
-            <p class="copyright">Copyright 2014 m.chunbo.com</p>
-        </footer>
     </body>
     <script type="text/javascript" src="../../js/common.js"></script>
     <script type="text/javascript" src="../../js/category.js"></script>
+    <script>
+// $(function(){
+
+
+
+
+// var myScroll;
+
+// (function loaded () {
+// 	myScroll = new IScroll('#wrapper', { 
+// 		scrollbars:true,
+// 		click: true
+// 	});
+// })();
+
+// document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+// });
+
+
+
+var myScroll;
+// $('#wrapper').height($(window).height() - $('.title').height() - $('.coupon-tab').height());
+function getData(){
+	//ajax
+	var html = '<li>'+
+				'<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>'+
+				'<p class="sub">4粒装</p>'+
+				'<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>'+
+				'<a href="#" class="icon i-cart"><i>5</i></a>'+
+			'</li>';
+	$('.layer-list').append(html);
+	myScroll.refresh();	
+}
+
+function loaded () {
+	myScroll = new IScroll('#wrapper', {
+		click:true,
+		scrollbars: true,
+		fadeScrollbars: true
+	});
+	myScroll.on('scroll',function(){
+		
+	})
+	myScroll.on('scrollEnd', function(){
+		if(this.y == this.maxScrollY){
+			getData();
+			// myScroll.scrollBy(0,-50);
+		}
+	});  
+
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false); 
+
+</script>
 </html>
