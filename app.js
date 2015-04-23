@@ -67,6 +67,6 @@ app.get(/\/(\w+).json$/, function(req,res){
     });
 });
 
-var port = 9003;
+var port = 9006;
 app.listen(port);
 console.log('Server start at port ' + port);

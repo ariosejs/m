@@ -28,12 +28,14 @@
 	</ul>
 </div>
 
-<div class="slide" id="J_slider">
-	<ul class="slide-img">
-        <li data-index="0"><a href="/Act/217"><img src="http://i3.chunboimg.com/group1/M00/00/FA/Cv4IbFUk_FaAVQrMAAFU_tX9eHY900_640_240.jpg" alt=""></a></li><li data-index="1" ><a href="/Act/213"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk8BaAN64_AAFp6y0ViIs919_640_240.jpg" alt=""></a></li><li data-index="2" ><a href="/product/6985"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk5jWAGn_NAAI7XHXMLZA994_640_240.jpg" alt=""></a></li><li data-index="3"><a href="/Act/209"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk-UuAQGLwAADfhzJPbUQ863_640_240.jpg" alt=""></a></li>    </ul>
-	<div class="slide-nav dot">
-		<i></i><i></i><i></i><i></i>
-	</div>
+<div class="slide swiper-container" id="J_slider">
+	<ul class="slide-img swiper-wrapper">
+        <li data-index="0" class="swiper-slide"><a href="/Act/217"><img src="http://i3.chunboimg.com/group1/M00/00/FA/Cv4IbFUk_FaAVQrMAAFU_tX9eHY900_640_240.jpg" alt=""></a></li>
+        <li data-index="1" class="swiper-slide" ><a href="/Act/213"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk8BaAN64_AAFp6y0ViIs919_640_240.jpg" alt=""></a></li>
+        <li data-index="2"  class="swiper-slide"><a href="/product/6985"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk5jWAGn_NAAI7XHXMLZA994_640_240.jpg" alt=""></a></li>
+        <li data-index="3" class="swiper-slide"><a href="/Act/209"><img src="http://i2.chunboimg.com/group1/M00/00/FA/Cv4IbFUk-UuAQGLwAADfhzJPbUQ863_640_240.jpg" alt=""></a></li>
+    </ul>
+	<ul class="slide-nav dot"></ul>
 </div>
 <ul class="new_hot mb">
 	<li><a href="#"><i class="i-new"></i>新品上市</a></li>
@@ -82,9 +84,7 @@
 				<a href="#" class="icon i-cart"></a>
 			</li>
 		</ul>
-		<div class="slide-nav dot">
-			<i></i><i></i><i></i><i></i>
-		</div>
+		<ul class="slide-nav boxdot"></ul>
 	</div>
 </div>
 <div class="layer">
@@ -95,7 +95,7 @@
 			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
 			<p class="sub">4粒装</p>
 			<p class="price"><b>&yen;12.50</b></p>
-			<a href="#" class="icon i-cart"><i>2</i></a>
+			<a href="#" class="icon i-cart"><i>2</i><div class="cart-loading"></div></a>
 			<div class="item-icon-box">
 				<i class="icon i-xsqg"></i>
 				<i class="icon i-ys"></i>
@@ -107,13 +107,13 @@
 			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
 			<p class="sub">4粒装</p>
 			<p class="price"><b>&yen;12.50</b></p>
-			<a href="#" class="icon i-cart"></a>
+			<a href="###" class="icon i-cart"></a>
 		</li>
 		<li>
 			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
 			<p class="sub">4粒装</p>
 			<p class="price"><em>&yen;12.50</em><span>&yen;15.50</span></p>
-			<a href="#" class="icon i-cart"><i>1</i></a>
+			<a href="javascript:void(0);" class="icon i-cart"><i>1</i></a>
 		</li>
 		<li>
 			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
@@ -218,6 +218,7 @@
             <a href="#" class="on">触屏版</a>|<a href="#">电脑版</a>
             <p class="copyright">Copyright 2014 m.chunbo.com</p>
         </footer>
+
     </body>
     <script type="text/javascript" src="../../js/common.js"></script>
     <script type="text/javascript" src="../../js/index.js"></script>
