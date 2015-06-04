@@ -1,22 +1,5 @@
 /* use strict; */
 
-function searchAct(){
-	$('.search,.search-cancel,.search-res').show();
-	$('.search-act').show();
-	$('.search-act-icon').hide();
-	$('body').addClass('disableScorll');
-	$('.search-cancel').on('click',function(e){
-		e.preventDefault();
-		$('.search,.search-cancel,.search-res').hide();
-		$('.search-act').hide();
-		$('.search-act-icon').show();
-		$('body').removeClass('disableScorll');
-	});
-}
-$('.search-act-icon').on('click',function(e){
-	e.preventDefault();
-	searchAct();
-});
 
 window.index_slider = new Swipe(document.getElementById('J_slider'), {
 	auto: 3000,
@@ -81,5 +64,12 @@ $(".i-cart").on("tap", function () {
     	}, 1000);
         
     });
+    //pingback
+    try{
+        var  clickData = $(this).attr("cbclick");
+        addClick(clickData);
+    }catch(e){
+        console.log(e);
+    }
 });
 

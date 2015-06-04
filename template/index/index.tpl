@@ -8,7 +8,7 @@
     </head>
     <body class="index">
 <div class="download"><a href="#" class="close"></a></div>
-<header><a href="#" class="search-cancel">取消</a><a href="#" class="logo">春播</a><input type="text" class="search" placeholder="搜索春播商品"><a href="#" class="search-act">搜索</a><a href="#" class="search-act-icon"></a></header>
+<header><a href="#" class="search-cancel">取消</a><a href="#" class="logo">春播</a><input type="text" class="search" id="search_key" data-type="search" placeholder="搜索春播商品"><a href="#" class="search-act">搜索</a><a href="#" class="search-act-icon"></a></header>
 <nav>
 	<ul>
 		<li class="on"><a href="../index/index.html"><i class="nav-0"></i>首页</a></li>
@@ -20,12 +20,8 @@
 </nav>
 <div class="search-res">
 	<h5>最近搜索</h5>
-	<ul>
-		<li><a href="#">红富士</a></li>
-		<li><a href="#">红富士</a></li>
-		<li><a href="#">红富士</a></li>
-		<li class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></li>
-	</ul>
+	<ul></ul>
+	<p class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></p>
 </div>
 
 <div class="slide swiper-container" id="J_slider">

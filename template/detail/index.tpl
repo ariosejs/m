@@ -53,7 +53,7 @@
 		规格：<a href="#" class="on">2粒装</a><a href="#">4粒装</a>
 	</div>
 	<div class="detail-gift">
-		<span class="num">&times;1</span><i class="i-txticon-red">赠品</i><img src="http://i2.chunboimg.com/group1/M00/00/31/Cv4IdVSzdOGAMo0cAAbj2LOMd0s573_40_40.jpg" alt="" class='img'>春播农庄有机栽培红果西红柿
+		<span class="num">&times;1</span>促销：<i class="i-txticon-red">赠</i>春播农庄有机栽培红果西红柿
 	</div>
 	<div class="detail-express">
 		<a href="#">
@@ -61,6 +61,10 @@
 			<p><b>9小时36分钟</b>内下单，<b>明天</b>(12月17日)内可送达</p>
 			<i class="more"></i>
 		</a>
+	</div>
+	<div class="detaail-express-tip">
+		<p>为保证新鲜度，您在5月11日下午15点前下单，春播将安排在5月15日起开始配送</p>
+		<i></i>
 	</div>
 	<div class="detail-buy">
 		数量：<div class="copies">
@@ -144,26 +148,29 @@
 </section>
 <section class="detail-section comment-list topborder">
 	<h2>- 商品评论 -</h2>
+	<p class="sub">好评度<b>100%</b> 213人评论</p>
 	<ul>
 		<li class="comment">
 			<div class="comment-header">
-				<img src="images/avatar.jpeg" alt="" />
+				<small>2015-03-1 加入</small>
+				<img src="http://i3.chunboimg.com/group1/M00/00/D5/Cv4IbFUU-2OAGTpQAAV9cwLrE10720_40_40.jpg" alt="" />
 				春播会员一号
 			</div>
-			<p class="comment-content">
+			<p class="comment-content"><i class="i-comment i-comment-3"></i>
 				比较小，两人就能吃完，味道不错，送到的时候还是冰凉的呢。
 			</p>
-			<small>
-				<i class="icon-love icon-love-active"></i><span class="love-count">12</span>
+			<small class="comment-date">
+				<!-- <i class="icon-love icon-love-active"></i><span class="love-count">12</span> -->
 				2014-11-31
 			</small>
 		</li>
 		<li class="comment">
 			<div class="comment-header">
-				<img src="images/avatar.jpeg" alt="" />
+				<small>2015-03-1 加入</small>
+				<img src="http://i3.chunboimg.com/group1/M00/00/D5/Cv4IbFUU-2OAGTpQAAV9cwLrE10720_40_40.jpg" alt="" />
 				春播会员一号
 			</div>
-			<p class="comment-content">
+			<p class="comment-content"><i class="i-comment i-comment-2"></i>
 				比较小，两人就能吃完，味道不错，送到的时候还是冰凉的呢。
 			</p>
 			<div class="img-con">
@@ -172,18 +179,16 @@
 				<img src="images/avatar.jpeg" alt="" />
 				<img src="images/avatar.jpeg" alt="" />
 			</div>
-			<small>
-				<i class="icon-love"></i><span class="love-count">12</span>
-				2014-11-31
-			</small>
-			<ul class="reply-list">
-				<li>
-					<div class="reply-name">买手水水：</div>
-					<p class="reply-content">
+			<div class="comment-reply">
+				<h6>买手水水：</h6>
+				<p class="reply-content">
 						谢谢您的光临，这个东西是我在探访长白山基地的时候搜寻来的，很难得，希望您能喜欢！
 					</p>
-				</li>
-			</ul>
+			</div>
+			<small class="comment-date">
+				<!-- <i class="icon-love"></i><span class="love-count">12</span> -->
+				2014-11-31
+			</small>
 		</li>
 	</ul>
 	<div class="button-row">
@@ -197,7 +202,7 @@
 		<li>
 			<a href="#"><img src="../../img/temp4.jpg" alt=""><h6>台湾茂谷柑</h6></a>
 			<p class="sub">4粒装</p>
-			<p class="price"><b>&yen;12.50</b></p>
+			<p class="price"><i class="i-txticon-red">赠</i><b>&yen;12.50</b></p>
 			<a href="#" class="icon i-cart"><i>2</i></a>
 		</li>
 		<li>
@@ -251,7 +256,9 @@
 	<ul></ul>
 	<a href="#" class="close">&times;</a>
 </div>
-
+<div class="wx-share-layer" style="display:none;">
+	<a href="#" id="close-wx-layer"></a>
+</div>
 		<footer>
             <div class="footer-tool">
                 <a href="#" class="toTop">回到顶部</a>

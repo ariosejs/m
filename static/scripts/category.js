@@ -1,24 +1,5 @@
 /* use strict; */
 
-function searchAct(){
-	$('.search-cancel,.search-res').show();
-	$('.back,.search-filter-act').hide();
-	$('.search-act').addClass('on');
-	$('body').addClass('disableScorll');
-	$('.search-cancel').on('click',function(e){
-		e.preventDefault();
-		$('.search-cancel,.search-res').hide();
-		$('.back,.search-filter-act').show();
-		$('.search-act').removeClass('on');
-		$('body').removeClass('disableScorll');
-	});
-}
-$('input.search ').on('focus',function(e){
-	e.preventDefault();
-	searchAct();
-});
-
-
 function categoryLayer(){
 	if($('.category-layer').is(':hidden')){
 		// $('body').addClass('disableScorll');

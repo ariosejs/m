@@ -11,9 +11,9 @@ $(function(){
 		    }
 		}
 	}
-
+	var noWelcome = window.noWelcome || '';
 	// 欢迎页
-	if (!localStorage.welcome && !$.fn.cookie('welcome')) {
+	if (!localStorage.welcome && !$.fn.cookie('welcome') && !noWelcome) {
 		$('body').append('<div id="welcome"><i></i><a href="javascript:void(0)">close</a></div>').addClass('disableScorll');
 		$('#welcome').animate({
 				opacity: 1

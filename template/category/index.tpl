@@ -8,7 +8,12 @@
     </head>
     <body class="category">
 <div class="download"><a href="#" class="close"></a></div>
-<header class="category-header"><a href="#" class="search-cancel">取消</a><input type="text" class="search" placeholder="搜索春播商品"><a href="#" class="search-act">搜索</a></header>
+<header class="category-header"><a href="#" class="search-cancel">取消</a><form action="search.html"><input type="text" class="search" placeholder="搜索春播商品"><a href="#" class="search-act">搜索</a></form></header>
+<div class="search-res">
+	<h5>最近搜索</h5>
+	<ul></ul>
+	<p class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></p>
+</div>
 <nav>
 	<ul>
 		<li><a href="../index/index.html"><i class="nav-0"></i>首页</a></li>
@@ -18,15 +23,6 @@
 		<li><a href="../my_chunbo/index.html"><i class="nav-4"></i>我的春播</a></li>
 	</ul>
 </nav>
-<div class="search-res">
-	<h5>最近搜索</h5>
-	<ul>
-		<li><a href="#">红富士</a></li>
-		<li><a href="#">红富士</a></li>
-		<li><a href="#">红富士</a></li>
-		<li class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></li>
-	</ul>
-</div>
 <div class="category-list">
 	<ul>
 		<li><a href="list.html"><img src="../../img/temp6.jpg" alt=""></a></li>

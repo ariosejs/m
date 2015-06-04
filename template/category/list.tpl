@@ -20,12 +20,8 @@
 </nav>
 <div class="search-res">
 	<h5>最近搜索</h5>
-	<ul>
-		<li><a href="#">红富士</a></li>
-		<li><a href="#">红富士</a></li>
-		<li><a href="#">红富士</a></li>
-		<li class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></li>
-	</ul>
+	<ul></ul>
+	<p class="del-search-key"><a href="#">删除搜索记录<i class="del">&times;</i></a></p>
 </div>
 <div id="wrapper">
 <div id="scroller">

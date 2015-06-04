@@ -61,6 +61,10 @@
 			<strong>&yen; 150.00</strong>
 		</li>
 	</ul>
+	<div class="my-feedback">
+		客服电话：<a href="tel:4008888878">400-888-8878</a>
+		<p class="sub">工作时间：周一至周日 08:00-22:00</p>
+	</div>
 </div>
 
 		<footer>

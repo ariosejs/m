@@ -1,5 +1,10 @@
 /* use strict; */
 
+$('.wx-share-layer').on('tap',function(e){
+    e.preventDefault();
+    $(this).hide();
+});
+
 $('.detail-showmore-act').on('click',function(e){
 	e.preventDefault();
 	$(this).hide();
@@ -15,9 +20,10 @@ window.detail_slider = new Swipe(document.getElementById('detail_slider'), {
   
 });
 
-$('.anxin a').click(function(e){
+$('.anxin a').on('tap',function(e){
 	e.preventDefault();
 	if($(this).children('img').attr('data-img-list')){
+    $('.imgView ul').html('');
 	var imgViewDate = $(this).children('img').attr('data-img-list').split(';');
 		for (var i = 0; i < imgViewDate.length; i++) {
 			$('.imgView ul').append('<li><img src="'+ imgViewDate[i] +'"></li>')
